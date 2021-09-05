@@ -5,6 +5,9 @@
 }
 
 body {
+    border-left: 30px solid #764400;
+    background-color:#ffe8c8;
+    border-right: 30px solid #764400;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
