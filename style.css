@@ -56,3 +56,10 @@ a::after {
     transform: skew(-30deg);
     z-index: -1;
 }
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
