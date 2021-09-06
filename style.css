@@ -8,6 +8,7 @@ body {
     border-left: 30px solid #764400;
     background-color:#ffe8c8;
     border-right: 30px solid #764400;
+    font-style:italic;
     font-family: "Roboto", sans-serif;
     margin: 0;
     height: 100vh;
@@ -62,4 +63,7 @@ a::after {
 }
 .col {
     flex: 1;
+}
+.text {
+    font-size: 2rem;
 }
