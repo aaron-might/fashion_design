@@ -25,6 +25,8 @@ body {
 }
 
 h1 {
+    display: flex;
+    justify-content: space-between;
     color: #764400;
     font-size: 4rem;
     margin: 0;
