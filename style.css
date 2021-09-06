@@ -27,9 +27,13 @@ body {
 h1 {
     display: flex;
     justify-content: space-between;
-    color: #764400;
+    align-items: center;
+    color: #a66000;
     font-size: 4rem;
     margin: 0;
+}
+h1 a {
+    transform: scale(0.8);
 }
 
 a {
