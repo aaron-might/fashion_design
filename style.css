@@ -36,7 +36,7 @@ h1 {
     margin: 0;
 }
 h1 a {
-    transform: scale(0.8);
+    transform: scale(0.7);
 }
 
 a {
@@ -68,17 +68,16 @@ a::after {
 }
 .col {
     flex: 1;
-    text-align: center;
 }
 .col:first-child {
-   margin-right:4rem; 
+    margin-right:4rem; 
 }
 .text {
     font-weight:200;
 }
 img.shadow-reverse {
     box-shadow:-15px -15px #a66000;
-
+    
 }
 img {
     box-shadow:15px 15px #a66000;
@@ -87,14 +86,18 @@ img {
 .block {
     display: block;
     text-align: center;
-    font-size:3rem;
+    font-size:2.5rem;
+    margin-top:3rem;
 }
 @media screen and (max-width: 768px){
     h1{
         text-align: center;
     }
     .col.first-child {
-    margin-right: 0;
-}
-
+        margin-right: 0;
+    }
+    
+    .col{
+        text-align: center;
+    }
 }
