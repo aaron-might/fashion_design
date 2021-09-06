@@ -73,5 +73,7 @@ img {
    margin: 3rem 0; 
 }
 .block {
-    display: flex;
+    display: block;
+    text-align: center;
+    font-size:3rem;
 }
